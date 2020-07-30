@@ -1,10 +1,14 @@
+//Owen Wilborn
+//Code processes a string order, checks order of valid syntax, if syntax correct reports the order number for the state code input 
+//Main used for testing purposes
+
 #include <iostream>
 #include <string>
 #include <cctype>
 #include <sstream>
 using namespace std;
 
-//Function prototypes (declaration), all function writen after the main
+//Function declarations, all function writen after the main
 bool hasValidSyntax(string); //function to test if valid stringorder, returns a bool
 int countCases(string, char, int&); //Gives the total cases for the status given, for vaild inputs
 bool isValidUppercaseStateCode(string); //Test if the state code is vaild, input must be all uppercase, returns a bool
@@ -49,7 +53,7 @@ int main()
 		cout << "---" << endl;
 		//Next find the number of cases for that status
 		returnnumber = countCases(orders, status, caseCount);
-		//output the number the function returns, the and the casecount for that status
+		//output the number the function returns, the status and the casecount for that status
 		cout << "Return number: " << returnnumber << endl;
 		cout << "For status: "<< status << endl;
 		cout << "Case count: " << caseCount << endl;
@@ -237,6 +241,7 @@ bool hasValidSyntax(string orders)
 	return Vaild;
 }
 
+//Function Below written by UCLA Professor Smallberg
 //*************************************
 //  isValidUppercaseStateCode
 //*************************************
