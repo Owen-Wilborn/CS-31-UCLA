@@ -1,3 +1,6 @@
+//Owen Wilborn
+//Checks if a single typo between two words occured. Returns 0 if words are identical, 1 if single type, 2 if more than 1 tpyo. Compares with closet word in input array as word in input
+
 #include <iostream>
 #include <string>
 #include <cassert>
@@ -155,6 +158,7 @@ int scoreTypo(const string dictionary[], int n, string word)
 
 int main()
 {
+    //First 7 test provided by UCLA Professor Smallberg
     // Here are some tests.  You may add more if you wish.
     string dict1[6] = { "february", "pointer", "country", "forty", "conversation", "minuscule" };
     assert(scoreTypo(dict1, 0, "forty") == -1);
