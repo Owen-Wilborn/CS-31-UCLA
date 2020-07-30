@@ -1,6 +1,8 @@
+//Owen Wilborn
+//Same as project 3, now input uses only c-string and not string to practice uses with c-strings
+
 #include <iostream>
-#include <cstring>  // Notice this is NOT <string>; we need it because
-// isValidUppercaseStateCode uses std::strstr
+#include <cstring>
 #include <cctype>
 #include <cassert>
 using namespace std;
@@ -132,6 +134,7 @@ int countCases(const char orders[], char status, int& caseCount)
 	return RET_OK;
 }
 
+//Function below written by Professor Smallberg
 bool isValidUppercaseStateCode(const char stateCode[])
 {
     // In a declaration of an array with initialization, you can omit
@@ -148,6 +151,7 @@ bool isValidUppercaseStateCode(const char stateCode[])
 }
 
 
+//Main used for test purposes
 int main()
 {
     assert(hasValidSyntax("TX38-CA132+"));
