@@ -1,4 +1,7 @@
 // spiders.cpp
+//Owen Wilborn
+//Code for spider game, final project of CS 31 at UCLA, all function headers and some function implementation written by professor Smallberg
+//at UCLA, other function implementations written by Owen Wilborn
 
 // Portions you are to complete are marked with a TODO: comment.
 // We've provided some incorrect return statements (so indicated) just
