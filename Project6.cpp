@@ -1,3 +1,6 @@
+//Owen Wilborn
+//Code to practice use with pointers by solving 11 smaller problems. Functions written first and main used to test all 11 functions
+
 #include <iostream>
 #include <string>
 #include <cmath>
@@ -61,6 +64,7 @@ int* computeSquares2(int& n, int arr[])
 	return arr;
 }
  //Part 2
+//void f() function provide by UCLA Professor Smallberg
 void f()
 {
 	int junk[100];
