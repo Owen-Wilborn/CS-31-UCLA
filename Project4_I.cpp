@@ -1,3 +1,7 @@
+//Owen Wilborn
+//Implementation of function firstDiffernce which returns location of first difference in two arrays, and function isContainedIn which return true is all elements in the first array are
+//In the second array as well. Function headers written by UCLA professor Smallberg and implementation written by Owen Wilborn
+
 #include <iostream>
 #include <string>
 #include <cassert>
@@ -79,6 +83,7 @@ bool isContainedIn(const string a1[], int n1, const string a2[], int n2)
     return true;
 }
 
+//Main to test the functions
 int main()
 {
     // Here are some tests that demonstrate what these functions do.  You may add
