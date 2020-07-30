@@ -1,3 +1,7 @@
+//Owen Wilborn
+//Calculates total tax owed by a person based on taxable income, occupation, and number of children input.
+//Tax calculated based on a model using different tax rates for different income amounts and employment sector and uses varying child deductible amounts
+
 #include <iostream>
 #include <string>
 using namespace std;
